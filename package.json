@@ -1,0 +1,26 @@
+{
+  "name": "rpg-largados-e-pelados-game",
+  "version": "1.0.0",
+  "description": "Jogo largados e pelados em nodejs",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "keywords": [
+    "game",
+    "largados",
+    "e",
+    "pelados",
+    "node",
+    "js",
+    "typescript"
+  ],
+  "author": "Ruan Pissinati",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.6.3"
+  }
+}
